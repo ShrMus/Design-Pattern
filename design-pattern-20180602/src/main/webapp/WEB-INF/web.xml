@@ -5,6 +5,8 @@
 	id="WebApp_ID" version="3.0">
 	<display-name>design-pattern-20180602</display-name>
 	
+	
+	
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
