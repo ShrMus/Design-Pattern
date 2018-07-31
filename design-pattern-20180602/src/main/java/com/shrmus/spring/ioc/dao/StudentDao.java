@@ -9,6 +9,14 @@ import java.util.List;
 
 import com.shrmus.spring.ioc.pojo.Student;
 
+/**
+ * 
+ * <p>Title:StudentDao</p>
+ * <p>Description:</p>
+ * @author Shr
+ * @date 2018年7月31日下午7:08:49
+ * @version
+ */
 public class StudentDao {
 	
 	/**

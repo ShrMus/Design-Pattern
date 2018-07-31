@@ -26,7 +26,7 @@ public class DBUtil {
      	SQL Server: jdbc:sqlserver://localhost:1433;databaseName=dao_20180603
      	Oracle 11g: jdbc:oracle:thin:@localhost:1521:orcl
 	 */
-	private static final String URL_STRING = "jdbc:mysql://localhost:3306/dao_20180603?characterEncoding=utf8";
+	private static final String URL_STRING = "jdbc:mysql://localhost:3306/design-pattern-20180602?characterEncoding=utf8";
 	// 数据库用户名
 	private static final String USER_STRING = "root";
 	// 数据库密码

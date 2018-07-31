@@ -13,7 +13,7 @@ import com.shrmus.spring.ioc.pojo.Student;
 public class StudentTest {
 	@Test
 	public void test01() {
-		ApplicationContext applicationContext = new FileSystemXmlApplicationContext("classpath:applicationContext.xml");
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext-ioc.xml");
 		StudentDao studentDao = (StudentDao) applicationContext.getBean("studentDao");
 		List<Student> studentList = studentDao.getStudentList();
 		System.out.println(studentList);
